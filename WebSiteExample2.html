@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ITEC 225
+       Assignment 3
+       CSS Assignment Template
+       Andrew Albanese        
+  -->
+  <head>
+      <meta charset="utf-8" />
+      <title>A3 Template</title>
+      
+      <style type="text/css">
+        
+        /* styles for all div's */
+        div {
+          width:50%;
+          margin:auto;
+          border:3px solid;
+        }
+        /* styles for all images */            
+        img {
+          display:block;
+          float:left;
+        }
+        
+		    /* table caption styles    */	 
+		    caption {
+          border:solid;
+          border-width:2px;
+          font-size:14pt;
+          font-weight:bold;
+          background-color:#87ceeb;
+          color:darkblue;
+          border-color:black;
+          padding:5px;
+        }
+				 
+        /* table cell formats */ 
+        th,td {
+          font-size:12pt;
+          padding:.5em;
+          background-color:#C0C0C0;
+        }		       
+
+        /* table styles width,margin-left,margin-right, so table is centered in div */
+        table {
+          width:60%;
+          margin:auto;
+          border:2px solid black;
+        } 
+        
+        /* styles for first country div */
+        .c1 {
+          background-color:#ccffcc;
+          color:forestgreen;
+          font-family:Helvetica;
+          font-size:8pt;
+          font-weight:bold;
+
+        }        
+
+        /* styles for second country div */
+        .c2 {
+          background-color:beige;
+          color:black;
+          font-family:"Times New Roman", Times, serif;
+          font-size:8pt;
+          font-weight:bold;
+        }        
+
+       /* styles for third country div */
+       .c3 {
+          background-color:lightslategray;
+          color:darkblue;
+          font-family:serif;
+          font-size:8pt;
+          font-weight:bold; 
+        }       
+      </style>
+
+
+
+
+
+  </head>
+  <body>
+     <div id="top" >
+       
+        <table>
+		 <caption>Olympic Team Information</caption>
+          <tr>
+            <td>
+              <h3>Links to Countries</h3>
+              <br /><a href="https://www.canada.ca/en.html">Canada
+              <br /><a href="https://www.usa.gov/">United States of America
+              <br /><a href="http://www.australia.gov.au/">Australia
+            <td> 
+             Pick your favorite Winter Olympic Team
+                  <br />
+                  <br /><input type="radio" value="Canada" />Canada
+                  <br /><input type="radio" value="United States" />United States
+                  <br /><input type="radio" value="Australia" />Australia
+                  <br /><input type="submit" value="Submit Your Choice" />
+                  <br />
+            </td>
+         </tr>
+       </table>
+     </div>
+     <br /><br />
+     <div class="c1">
+         <h2>Canada</h2>
+         <img src="http://babbage.radford.edu/itec225/Assignment_3/canada.jpg">
+          <p>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel placerat tellus. In hac habitasse platea dictumst. Suspendisse ultricies id sem ut efficitur. Mauris id pulvinar magna. Integer nunc mauris, sollicitudin ac eros in, fringilla interdum lectus.
+            
+            
+          </p>  
+            
+          <p>
+             <!-- link to top -->
+             <a href="#top">Back to Top</a>
+          </p>
+      </div> 
+      <br /><br />
+
+      <div class="c2">
+         <h2>United States of America</h2>
+         <img src="http://babbage.radford.edu/itec225/Assignment_3/usflag.jpg">
+          <p>
+             
+              Curabitur id vestibulum mauris, eget aliquet sapien. Fusce lacinia dapibus odio at porttitor. Aenean mattis euismod erat sit amet finibus.
+           
+          </p>
+          
+          <p>
+             <!-- link to top -->
+             <a href="#top">Back to Top</a>
+          </p>
+      </div> 
+
+      <br /><br />
+      <div class="c3">
+         <h2>Australia</h2>
+         <img src="http://babbage.radford.edu/itec225/Assignment_3/australia.jpg">
+          <p>
+            
+            Ut posuere mi sit amet risus laoreet, a euismod neque varius. Phasellus dignissim neque nec malesuada pretium.
+
+          </p>
+          <p>
+             <!-- link to top -->
+             <a href="#top">Back to Top</a>
+          </p>
+      </div> 
+
+
+  </body>
+</html>
